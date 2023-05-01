@@ -3,16 +3,23 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-image: url('../img/bg-home.png');
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
     background-color: white;
 
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+.nav-link:hover {
+
+    background-color: #F7F7F7;
+
+}
+
+li {
+    font-size: 1.0rem;
 }
 
 .card img {
@@ -34,4 +41,7 @@ body {
     }
 }
 
-.div-experiencia {}
+footer img {
+    height: 50px;
+    width: 100px;
+}

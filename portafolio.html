@@ -38,11 +38,16 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    <a class="nav-link " href="./portafolio.html">Portafolio</a>
-                    <a class="nav-link " href="./educacion.html">Educación</a>
-                    <a class="nav-link " href="./experiencia.html">Expereciencia</a>
-                    <a class="nav-link " href="#ancla-1">Footer</a>
+                    <img class="logo" src="./assets/img/fse_logo_blanco_bajada.jpg" />
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="./portafolio.html">Portafolio</a>
+                    <a class="nav-link" href="./educacion.html">Educación</a>
+                    <a class="nav-link" href="./experiencia.html">Expereciencia</a>
+                    <a class="nav-link" href="#ancla-1">Footer</a>
                 </div>
             </div>
         </div>
@@ -50,7 +55,7 @@
     <!-- Contenido principal-->
 
     <div class="album py-5 bg-transparent">
-        <div class="container bg-transparent overflow-auto" style="max-width: 1000px; max-height: 500px;">
+        <div class="container bg-transparent overflow-auto">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
@@ -61,7 +66,8 @@
                             <p class="card-text text-secondary border-bottom">Introducción a HTML</p>
 
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-1">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -75,7 +81,8 @@
                             <h5 class="card-title">Desafio N2, Construyendo un landing page</h5>
                             <p class="card-text text-secondary border-bottom">Introducción a CSS</p>
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-2">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -89,7 +96,8 @@
                             <h5 class="card-title">Desafio N3, Iguana page </h5>
                             <p class="card-text text-secondary border-bottom">Alineando contenido con Flex</p>
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-3">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -103,7 +111,8 @@
                             <h5 class="card-title">Desafio N4, Cuppon</h5>
                             <p class="card-text text-secondary border-bottom">Bootstrap</p>
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-4">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -117,7 +126,8 @@
                             <h5 class="card-title">Desafio N5, Github</h5>
                             <p class="card-text text-secondary border-bottom">Terminal, Git y Github</p>
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-5">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -131,7 +141,8 @@
                             <h5 class="card-title">Desafio final, Desarrollo de portafolio</h5>
                             <p class="card-text text-secondary border-bottom">Trabajo colaborativo y Github Pages</p>
                             <div class="d-flex gap-3 justify-content-end align-items-center">
-                                <small class="text-body-secondary"><a href="#" class="link-secondary">ver
+                                <small class="text-body-secondary"><a href="#" class="link-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#modalDesafio-6">ver
                                         más</a></small>
                             </div>
                         </div>
@@ -140,19 +151,70 @@
             </div>
         </div>
     </div>
-
-
-
     <!-- Fin Contenido principal-->
-
-    <footer class="bg-transparent ">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center text-white"><a name="ancla-1">© 2023 Felipe Saavedra .Todos los derechos
-                        reservados.</a></p>
+    <!-- Modales -->
+    <!-- Modal -->
+    <div class="modal fade" id="modalDesafio-1" tabindex="-1" aria-labelledby="modalDesafio-1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/desafio-1.png" />
             </div>
         </div>
-    </footer>
+    </div>
+
+    <div class="modal fade" id="modalDesafio-2" tabindex="-1" aria-labelledby="modalDesafio-2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/desafio-2.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesafio-3" tabindex="-1" aria-labelledby="modalDesafio-3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/desafio-3.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesafio-4" tabindex="-1" aria-labelledby="modalDesafio-4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/desafio-4.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesafio-5" tabindex="-1" aria-labelledby="modalDesafio-5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/desafio-5.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesafio-6" tabindex="-1" aria-labelledby="modalDesafio-6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img src="./assets/img/San-Pedro-De-Atacama.jpeg" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin Modales-->
+
+    <div class="container">
+        <footer class="bg-transparent">
+            <div class="row g-3 mt-3 mb-3">
+                <div class="col-12 text-center">
+                    <img src="./assets/img/fse_logo_blanco.jpg" />
+                    <p class="text-center text-muted"><a name="ancla-1">© 2023 Felipe Saavedra .Todos los derechos
+                            reservados.</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
