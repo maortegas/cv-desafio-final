@@ -10,12 +10,19 @@ body {
 .logo {
     height: 100px;
     width: 200px;
+    background-color: white;
 }
+
+
 
 .nav-link:hover {
 
     background-color: #F7F7F7;
 
+}
+
+.logo:hover {
+    background-color: white;
 }
 
 li {
